@@ -241,7 +241,7 @@ device		vmx			# VMware VMXNET3 Ethernet
 device		axp			# AMD EPYC integrated NIC (requires miibus)
 
 # PCI Ethernet NICs.
-device		aq			# Aquantia / Marvell AQC1xx
+#device		aq			# Aquantia / Marvell AQC1xx
 device		bxe			# Broadcom NetXtreme II BCM5771X/BCM578XX 10GbE
 device		le			# AMD Am7900 LANCE and Am79C9xx PCnet
 device		rge			# Realtek 8125/8126/8127
@@ -323,7 +323,7 @@ device		xz			# lzma decompression
 # The `bpf' device enables the Berkeley Packet Filter.
 # Be aware of the administrative consequences of enabling this!
 # Note that 'bpf' is required for DHCP.
-device		bpf			# Berkeley packet filter
+#device		bpf			# Berkeley packet filter
 
 # random(4)
 device		rdrand_rng		# Intel Bull Mountain RNG
