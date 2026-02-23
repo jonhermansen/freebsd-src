@@ -45,7 +45,6 @@ SUBDIR=	\
 	${_armv8_rng} \
 	${_asmc} \
 	ata \
-	${_aq} \
 	ath \
 	ath_dfs \
 	ath_hal \
